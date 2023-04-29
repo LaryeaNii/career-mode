@@ -1,0 +1,131 @@
+.konko
+{
+    border: 4px solid black;
+    width: fit-content;
+    margin: auto;
+}
+.heading
+{
+    font-weight: 800;
+    text-align: center;
+
+    
+}
+body{
+    align-items: center;
+}
+.divide
+{
+    margin-top: -20px;
+    padding-left: 22px;
+    background-color: rgb(138, 134, 134);
+    height: 1px;
+    width: 224px;
+}
+.span
+{
+    font-weight: 1000;
+    margin-right: 45px;
+}
+.firstset{
+    padding-left: 10px;
+}
+.letter{
+    font-weight: 400;
+    margin-bottom: -12px;
+}
+.span1{
+    font-weight: 1000;
+}
+.thickness
+{
+   
+    background-color: rgb(8, 8, 8);
+    height: 9px;
+    width: 254px;
+}
+.anotherone
+{
+    font-weight: bolder;
+}
+.calo{
+   margin-right: 90px;
+   font-size: 30px;
+   font-weight: 900;
+}
+.span2{
+    font-weight: bolder;
+    margin-right: 10px;
+    font-size: 40px;
+}
+.semithick
+{
+    width: 254px;
+    height: 4px;
+    background-color: black;
+    margin-top: -18px;
+
+}
+.daily{
+    font-weight: 1000;
+    text-align: right;
+    margin-right: 12px;
+    margin-bottom: 0px;
+}
+.thinlines
+{
+    width: 254px;
+    margin: auto;
+}
+.downkon
+{
+    margin-left: 120px;
+    margin: -10px;
+    padding-left: 30px;
+}
+.spanner{
+    font-weight: 1000;
+    margin-left: 84px;
+}
+.spite
+{
+    margin-left: 24px;
+    margin-right: 105px;
+}
+.steady{
+    padding-top: 6px;
+    margin-bottom: -9px;
+}
+.choly{
+    margin-left: 110px;
+}
+.thirteen
+{
+    margin-left: 45px;
+}
+.totheleft
+{
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.tothefarleft
+{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.twenties
+{
+    margin-left: 18px;
+}
+.threegrams{
+    margin-left: 165px;
+}
+.iron{
+    margin-left: 155px;
+}
+.textmessage
+{
+    font-size: 12px;
+    margin-left: 6px;
+}
