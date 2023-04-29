@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+
+.board {
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    color: rgb(58, 57, 57);
+    border-radius: 20px;
+    width: 95vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1
+{
+    margin-top: 20px;
+}
+
+.image-container {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-container
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+.myname
+{
+    margin-left: -10px;
+}
