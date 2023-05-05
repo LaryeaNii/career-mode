@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-color: rgb(226, 199, 148);
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-left: 35px;
+   padding-right: 55px;
+   position: fixed;
+   top: 0;
+   left:-3%;
+   width: 100%;
+   background-color: azure;
+}
+.navbar-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+}
+.links{
+    text-decoration: none;
+    color: rgb(139, 81, 5);
+}
+.links:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.small-heading{
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
+.submission-container{
+    display: block;
+    text-align: center;
+}
+.btn{
+    margin-top: 10px;
+    color: rgb(10, 5, 5);
+    background-color: rgb(221, 129, 8);
+    width: 133px;
+    height: 28px;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+.btn:hover{
+    background-color: brown;
+    cursor: pointer;
+} 
+.input{
+    height:25px;
+    width: 435px;
+}
+.talk{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.features{
+    margin: 0 100px;
+}
+.hope{
+    display: inline-flex;
+    gap: 10px;
+}
+.cedi{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-right: 60px;
+}
+.skilled{
+    margin-left: -45px;
+    padding-left: 20px;
+}
+.pray{
+    margin-right: 5px;
+    margin:auto;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.bigger{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.price-container{
+    display: flex;
+    text-align: center;
+    border: 2px black solid;
+    width: fit-content;
+ 
+}
+.price-container li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
