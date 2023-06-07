@@ -1,0 +1,207 @@
+
+body{
+    background-color: rgb(241, 236, 236);
+    margin: 40px;
+    margin-left: 45px;
+}
+
+.heading-things{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.forms{
+    display: flex;
+}
+.texty{
+    border-radius: 20px;
+    margin: 4px;
+    height: 30px;
+    border-style: none;
+}
+#texty2{
+    margin-right: -14px !important;
+}
+.welcome{
+    margin-top: -10px;
+}
+.sub-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    margin-left: 110px;
+    margin-right: 180px;
+}
+.balance{
+    margin-top: -55px;
+}
+
+.balance p{
+    margin-top: -15px;
+}
+.money h2{
+    font-size: 3em;
+    margin-top: -0.25px;
+    padding-top: 1px;
+}
+.transaction-container{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.record-list{
+    width: 50%;
+    height: 460px;
+    overflow-y: auto;
+}
+.money-line{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#green-tag{
+    background-color: rgb(5, 95, 5);
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 95px;
+}
+#red-tag{
+    background-color: rgb(179, 15, 15);
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px; 
+    margin-bottom: 95px;
+}
+.options{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.transfer{
+    background-color: rgb(255, 174, 0);
+    padding: 10px;
+    border-radius: 13px;
+
+    text-align: start;
+}
+.tm{
+    margin-left: 46px;
+    margin-bottom: -13px;
+}
+.pale-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.forward-button{
+    margin-bottom: 20px;
+}
+#loan{
+    background: linear-gradient(to bottom right, rgb(180, 224, 20), rgb(2, 73, 2));
+}
+#close{
+    background-color: red;
+}
+.ins-outs{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-in{
+    display: flex;
+    gap: 8px;
+}
+
+@media (max-width: 600px) {
+    .sub-head {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 40px;
+      margin-bottom: 20px;
+    }
+    
+    .balance {
+      margin-top: -20px;
+    }
+    
+    .money h2 {
+      font-size: 2.5em;
+    }
+    
+    .transaction-container {
+      flex-direction: column;
+    }
+    
+    .record-list {
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+    }
+    
+    .money-line {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    #green-tag,
+    #red-tag {
+      margin-bottom: 20px;
+    }
+    
+    .options {
+      width: 100%;
+    }
+    
+    .tm {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+    .heading-things {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+      
+      .forms {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .texty {
+        width: 100%;
+        margin: 4px 0;
+      }
+      
+      #texty2 {
+        margin-right: 0 !important;
+      }
+      
+      .welcome {
+        margin-top: 10px;
+      }
+      .ins-outs {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .small-in {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+      }
+  }
+  
+     
